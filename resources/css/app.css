@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/* .photos-upload-wrpper .form__image-container:after {
+    content: "✕";
+    position: absolute;
+    font-size: 2.5rem;
+    top: 0% !important;
+    left: 0% !important;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+} */

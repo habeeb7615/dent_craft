@@ -1,0 +1,107 @@
+.text-custom{
+    font-size: 1.5rem;
+    color: #f12119;
+}
+.fa-size {
+    font-size: 1rem;
+}
+.user-profile figure {
+    cursor: pointer;
+}
+#change-password button.password-question {
+    border-radius: 50%;
+    border: none;
+}
+#change-password .form-group label {
+    position: relative;
+}
+#change-password .form-group .password-question {
+    position: absolute;
+    right: 0;
+    top: -1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    cursor: pointer;
+}
+#change-password .form-group .password-question img {
+    width: 28px;
+}
+
+label.error {
+    font-size: 1.5rem !important;
+    color: #f12119 !important;
+    text-transform: none !important;
+}
+
+#userdetails_email label,
+#userdetails_email input,
+#userdetails_email textarea,
+#userdetails_email button {
+    font-size: 1.5rem;
+}
+/*.login-section .login-form form .form-group .form-control#email {
+    background-image: url(../images/user.svg);
+}*/
+/*.login-section .login-form form .form-group .form-control#password,
+.login-section .login-form form .form-group .form-control#password_confirmation {
+    background-image: url(../images/lock.svg);
+}*/
+.my-profile-section .my-profile-wrapper .profile-image.upload-logo figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.change-password-form{
+    margin-top: 10rem;
+}
+.text-green {
+    font-size: 2rem;
+    color: #4BFF00;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+@keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.page-link {
+    color: black;
+}
+
+.privacy-policy-section, .change-password-wrapper {
+    height: calc(100vh - 5.9rem);
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.fz-2 {
+    font-size: 2rem;
+}
+
+.pagination, #reset-dates {
+    font-size: 2rem;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field {
+    color: white;
+}

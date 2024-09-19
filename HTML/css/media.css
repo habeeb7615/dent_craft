@@ -1,0 +1,409 @@
+/* body{
+    font-family: sans-serif !important;
+} */
+@media only screen and (max-width:1750px) {
+
+	html{
+		font-size: 8.5px;
+	}
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group input{
+		font-size: 4rem;
+	}
+
+}
+
+@media only screen and (max-width:1680px) {
+
+
+}
+
+@media only screen and (max-width:1600px) {
+
+
+}
+
+@media only screen and (max-width:1440px) {
+
+	html{
+		font-size: 7.5px;
+	}
+
+	h1{
+		font-size: 3.8rem;
+	}
+	h2{
+		font-size: 4.2rem;
+	}
+
+	.login-section .login-form{
+		width: 35%;
+	}
+	.login-section .login-form form .form-group.submit-btn button{
+		font-size: 2.2rem;
+	}
+
+	.sidebar .sidebar-content .sidebar-top-menu-list ul li a.menu-link p{
+		padding-left: 1.5rem;
+	}
+
+	.update-btn button span{
+		font-size: 2.6rem;
+		padding: 0 4rem;
+	}
+	.update-btn button img {
+		width: 8rem;
+	}
+
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group input {
+		font-size: 3.6rem;
+	}
+	.my-profile-section .my-profile-wrapper .profile-image figure{
+		height: 34rem;
+	}
+
+}
+
+
+@media only screen and (max-width:1200px) {
+
+	html{
+		font-size: 7px;
+	}
+	.common-padding-lr {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	.car-quotation-wrapper{
+		margin-top: 1rem;
+	}
+
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-content{
+		width: calc(100% - 18rem);
+		padding-left: 1.5rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-content ul li span,
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-content ul li strong{
+		font-size: 1.8rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-edit-delete a{
+		margin: 0 2rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-edit-delete a span{
+		padding-left: 1rem;
+
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-edit-delete a img {
+		width: 3.8rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-image {
+		width: 18rem;
+	}
+
+	.car-authorisation-info-wrapper .car-authorisation-photos{
+		padding-left: 2rem;
+	}
+	.car-authorisation-info-wrapper .car-authorisation-photos .car-photo{
+		width: calc(20% - 1rem);
+		margin: 0 1rem 1rem 0;
+	}
+
+
+}
+
+@media only screen and (max-width:991px) {
+
+	.login-section .login-form {
+		width: 50%;
+	}
+
+	.car-quotation-wrapper .car-quotation-box{
+		padding: 1.3rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-edit-delete a {
+		margin: 0 1rem;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-edit-delete a img {
+		width: 3.5rem;
+	}
+	.car-quotation-wrapper .car-quotation-box{
+		width: calc(50% - .7rem);
+		margin-bottom: 1.4rem;
+	}
+
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-image {
+		width: 50%;
+	}
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-content{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 2rem;
+	}
+	.latest-question-wrapper .quotation-form-wrapper .date-input{
+		width: calc(50% - 1.5rem);
+		margin-bottom: 1rem;
+	}
+	.latest-question-wrapper .quotation-form-wrapper .search-input{
+		width: 50%;
+		margin-left: 0;
+	}
+
+
+	.no-car-data-wrapper .no-car-data-content,
+	.change-password-wrapper .change-password-form{
+		width: 70%;
+	}
+
+	.new-quotation-form .new-quotation-wrap .input-group-wrapper .form-group select{
+		background-position: center right 1.5rem;
+    	background-size: 10px;
+	}
+
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group input {
+		font-size: 3.2rem;
+	}
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group{
+		padding: 2rem 2rem;
+		margin-bottom: 2rem;
+	}
+	.my-profile-section .my-profile-wrapper .company-detail-wrapper .form-group{
+		padding: 1.5rem 2rem;
+		margin-bottom: 1.5rem;
+	}
+	.my-profile-section .my-profile-wrapper .company-detail-wrapper .gst-percentage-wrapper .percentage-simbole{
+		margin-bottom: 1.5rem;
+	}
+	.my-profile-section .my-profile-wrapper .profile-image figure {
+		height: 25rem;
+	}
+	.my-profile-section .my-profile-wrapper .personal-info-formgroups .checked-detail{
+		width: 7rem;
+    	height: 6rem;
+	}
+	.my-profile-section .my-profile-wrapper .personal-info-formgroups .checked-detail img {
+		width: 3.2rem;
+	}
+
+	.my-profile-section .my-profile-wrapper .profile-image .checked-detail{
+		width: 6rem;
+    	height: 5rem;
+	}
+	.my-profile-section .my-profile-wrapper .profile-image .checked-detail img {
+		width: 2.8rem;
+	}
+	.my-profile-section .my-profile-wrapper {
+		margin-bottom: 4rem;
+	}
+
+
+	.car-authorisation-info-wrapper .car-authorisation-info {
+		width: 100%;
+	}
+	.car-authorisation-info-wrapper .car-authorisation-photos{
+		padding-left: 0;
+		margin-top: 2rem;
+		width: 100%;
+	}
+	.car-authorisation-info-2column ul li span, .car-authorisation-info-2column ul li p,
+	.car-authorisation-info-wrapper .car-authorisation-info ul li span, .car-authorisation-info-wrapper .car-authorisation-info ul li p{
+		font-size: 1.8rem;
+	}
+	.damage-area-wrapper table tr th{
+		font-size: 2rem;
+	}
+	.estimate-breakdown-table .estimae-total h4{
+		font-size: 2.8rem;
+	}
+	.estimate-breakdown-table .estimae-total{
+		padding-right: 10%;
+	}
+
+}
+
+@media only screen and (max-width:767px) {
+
+	html{
+		font-size: 6px;
+	}
+	h4{
+		font-size: 2.2rem;
+	}
+
+	.login-section .login-form {
+		width: calc(100% - 3rem);
+	}
+	.login-section .login-panel-header .logo-content{
+		width: 100%;
+		padding-left: 0;
+		margin-top: 2rem;
+	}
+
+	.page-content, .page-content .header-title-search{
+		width: calc(100% - 7rem);
+	}
+	.no-car-data-wrapper{
+		height: calc(100% - 18rem);
+	}
+
+	.api-check-register-number{
+		padding-top: 2rem !important;
+		padding-bottom: 0 !important;
+	}
+
+	.delete-comment{
+		display: block;
+		text-align: center;
+	}
+	.delete-comment span{
+		padding-left: 0 !important;
+		display: block;
+		margin-top: .5rem;
+	}
+	.canned-comments-wrapper .canned-comments-listing .canned-comments-wrap .comments-content {
+		margin-top: 1.5rem;
+	}
+
+	.my-profile-section .my-profile-wrapper .profile-image{
+		margin-top: 3rem;
+	}
+
+}
+
+@media only screen and (max-width:640px) {
+
+	h1{
+		font-size: 3.6rem;
+	}
+
+	.car-quotation-wrapper .car-quotation-box{
+		width: 100%;
+	}
+
+	.new-quotation-form .new-quotation-wrap .input-group-wrapper .form-group{
+		width: calc(50% - 1.5rem);
+		margin-right: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group input {
+		font-size: 2.8rem;
+	}.
+	.my-profile-section .my-profile-wrapper .personal-info-wrapper .form-group,
+	.my-profile-section .my-profile-wrapper .company-detail-wrapper .form-group{
+		padding: 1.5rem;
+	}
+	.my-profile-section .my-profile-wrapper h5 {
+		margin-bottom: 1.5rem;
+	}
+	.my-profile-section .my-profile-wrapper {
+		margin-bottom: 6rem;
+	}
+
+	.estimate-breakdown-table .estimae-total h4 {
+		font-size: 2.4rem;
+	}
+
+}
+
+@media only screen and (max-width:480px) {
+
+	.page-content .header-title-search .header-title-content,
+	.page-content .header-title-search .header-search,
+	.latest-question-wrapper .quotation-form-wrapper .search-input,
+	.car-quotation-wrapper .car-quotation-box .car-info-wrapper .car-info-image{
+		width: 100%;
+	}
+	.latest-question-wrapper .quotation-form-wrapper .date-input{
+		width: 100%;
+		margin-right: 0;
+	}
+	.page-content .header-title-search .header-title-content h2{
+		margin-bottom: 0;
+	}
+
+	.fix-height {
+		min-height: 18rem;
+	}
+	.remain-height{
+		height: calc(100% - 18rem);
+	}
+
+	.after-header-section {
+		padding-top: 19rem;
+		padding-bottom: 2rem;
+	}
+
+	.page-content .header-title-search .header-title-content{
+		padding-right: 0;
+	}
+	.latest-question-wrapper h5 span{
+		display: block;
+		margin-left: 0;
+		margin-top: 1rem;
+	}
+	.login-section{
+		background-position: center right 70%;
+	}
+
+
+	.no-car-data-wrapper .no-car-data-content{
+		width: 100%;
+		text-align: center;
+		padding: 0 30px;
+	}
+
+	.new-quotation-form .new-quotation-wrap .input-group-wrapper .form-group{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+
+	.api-check-register-number {
+		padding-top: 2rem !important;
+		padding-bottom: 1rem !important;
+	}
+
+	.radio-groups .custom-radio{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 1.5rem;
+	}
+	.radio-groups .custom-radio:last-child{
+		margin-bottom: 0;
+	}
+
+	.change-password-wrapper .change-password-form{
+		width: 100%;
+	}
+	.change-password-wrapper .change-password-form .form-group label{
+		letter-spacing: 2px;
+	}
+	.change-password-wrapper .change-password-form .form-group{
+		padding: 1.5rem;
+	}
+
+	.car-authorisation-info-2column ul li{
+		width: 100%;
+	}
+	.car-authorisation-info-2column ul li:last-child, .car-authorisation-info-2column ul li:nth-last-child(2){
+		margin-bottom: 1rem;
+	}
+
+	.car-authorisation-info-wrapper .car-authorisation-photos .car-photo{
+		width: calc(25% - 1rem);
+	}
+	.car-authorisation-info-2column ul li span, .car-authorisation-info-2column ul li p, .car-authorisation-info-wrapper .car-authorisation-info ul li span, .car-authorisation-info-wrapper .car-authorisation-info ul li p{
+		padding: 1rem 1.2rem;
+	}
+
+}
+
+
+@media only screen and (max-width:400px) {
+
+	.car-authorisation-info-wrapper .car-authorisation-photos .car-photo{
+		width: calc(33% - 1rem);
+	}
+
+}
+

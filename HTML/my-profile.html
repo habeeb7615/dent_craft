@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>:: DentCraft ::</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/footer-logo.svg" sizes="16x16">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <div class="sidebar">
+            <div class="main-logo fix-height">
+                <a href="#" class="hamburg-menu">
+                    <img src="images/menu-bar.svg" alt="">
+                </a>
+                <figure  class="collaps-text">
+                    <img class="img-fluid" src="images/white_logo.svg" alt="" />
+                </figure>
+            </div>
+            <div class="sidebar-content remain-height custom-scrollbar">
+                <div class="sidebar-top-menu">
+                    <a href="New-Quotation.html" class="btn btn-primary new-quatation">
+                        <span><i class="bi bi-plus-circle-fill"></i></span>
+                        <p class="collaps-text">New Quotation</p>
+                    </a>
+                    <div class="sidebar-top-menu-list menu-list-top">
+                        <ul>
+                            <li>
+                                <a href="dashboard.html" class="menu-link">
+                                    <span><i class="bi bi-house-door"></i></span>
+                                    <p class="collaps-text">My Dashboard</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle menu-link" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                    <span><i class="bi bi-journal-code"></i></span>
+                                    <p class="collaps-text">API</p>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item menu-link" href="API-Check-Vehicle-Registration.html">
+                                                <span><i class="bi bi-journal-text"></i></span>
+                                                <p class="collaps-text">Check Vehicle Registration</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item menu-link" href="#">
+                                                <span><i class="bi bi-gear"></i></span>
+                                                <p class="collaps-text">Check for Parts</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-app-indicator"></i></span>
+                                    <p class="collaps-text">Notifications</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar-bottom-menu">
+                    <div class="user-profile">
+                        <a href="my-profile.html">
+                            <figure>
+                                <img src="images/user-profile.jpg" alt="">
+                            </figure>
+                            <p class="collaps-text">Welcome</p>
+                            <h4 class="collaps-text">Edward</h4>
+                        </a>
+                    </div>
+                    <div class="sidebar-top-menu-list menu-list-bottom">
+                        <ul>
+                            <li>
+                                <a href="change-password.html" class="menu-link">
+                                    <span><i class="bi bi-key"></i></span>
+                                    <p class="collaps-text">Change Password</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="Email-and-Profile.html" class="menu-link">
+                                    <span><i class="bi bi-chat-right-dots"></i></span>
+                                    <p class="collaps-text">Email & Comments</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-box-arrow-left"></i></span>
+                                    <p class="collaps-text">Logout</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content window-height">
+            <div class="header-title-search fix-height common-padding-lr">
+                <div class="header-title-content">
+                    <h2>My Profile</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+            </div>
+            <div class="my-profile-section common-padding-lr after-header-section">
+                <form>
+                    <div class="my-profile-wrapper">
+                        <h5>Personal Info</h5>
+                        <div class="personal-info-wrapper row">
+                            <div class="col-lg-9 col-md-8 personal-info-formgroups">
+                                <div>
+                                    <div class="form-group">
+                                        <label>User Name</label>
+                                        <input type="text" value="Edward" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email Address</label>
+                                        <input type="email" value="dentcraftapp@gmail.com" />
+                                    </div>
+                                </div>
+                                <button class="checked-detail">
+                                    <img src="images/confirm.svg" alt="">
+                                </button>
+                            </div>
+                            <div class="col-lg-3 col-md-4 profile-image">
+                                <figure>
+                                    <img src="images/user-profile.jpg" alt="" />
+                                </figure>
+                                <button class="checked-detail">
+                                    <img src="images/confirm.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-profile-wrapper">
+                        <h5>Company Details</h5>
+                        <div class="company-detail-wrapper row">
+                            <div class="col-lg-9 col-md-8 personal-info-formgroups">
+                                <div class="form-group">
+                                    <label>Company Name</label>
+                                    <input type="text" value="Dentcraft NSW Pty Ltd " />
+                                </div>
+                                <div class="form-group">
+                                    <label>Mobile Number</label>
+                                    <input type="tel" value="+00 123 456 789" />
+                                </div>
+                                <div class="form-group">
+                                    <label>ABN</label>
+                                    <input type="tel" value="12 345 678 910" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Email Address</label>
+                                    <input type="email" value="info@dentcraftnsw.com.au" />
+                                </div>
+                                <div class="form-group">
+                                    <label>PO Box</label>
+                                    <input type="text" value="117 Georges Hall 2198" />
+                                </div>
+                                <div class="gst-percentage-wrapper">
+                                    <div class="form-group gst-percentage">
+                                        <label>GST %</label>
+                                        <input type="number" value="10" />
+                                    </div>
+                                    <div class="percentage-simbole">%</div>
+                                </div>
+                                <div class="checkbox-con off">
+                                    <input type="checkbox" />
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-4">
+                                <div class="profile-image upload-logo">
+                                    <figure>
+                                        <img src="images/white_logo.svg" alt="" />
+                                    </figure>
+                                    <button class="checked-detail">
+                                        <img src="images/confirm.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="update-btn">
+                        <button class="btn-primary">
+                            <img src="images/update.svg" alt="">
+                            <span>Update</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</html>

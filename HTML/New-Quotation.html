@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>:: DentCraft ::</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="images/footer-logo.svg" sizes="16x16">
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+
+        <div class="sidebar">
+            <div class="main-logo fix-height">
+                <a href="#" class="hamburg-menu">
+                    <img src="images/menu-bar.svg" alt="">
+                </a>
+                <figure  class="collaps-text">
+                    <img class="img-fluid" src="images/white_logo.svg" alt="" />
+                </figure>
+            </div>
+            <div class="sidebar-content remain-height custom-scrollbar">
+                <div class="sidebar-top-menu">
+                    <a href="#" class="btn btn-primary new-quatation">
+                        <span><i class="bi bi-plus-circle-fill"></i></span>
+                        <p class="collaps-text">New Quotation</p>
+                    </a>
+                    <div class="sidebar-top-menu-list menu-list-top">
+                        <ul>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-house-door"></i></span>
+                                    <p class="collaps-text">My Dashboard</p>
+                                </a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle menu-link" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+                                    <span><i class="bi bi-journal-code"></i></span>
+                                    <p class="collaps-text">API</p>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <ul>
+                                        <li>
+                                            <a class="dropdown-item menu-link" href="#">
+                                                <span><i class="bi bi-journal-text"></i></span>
+                                                <p class="collaps-text">Check Vehicle Registration</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item menu-link" href="#">
+                                                <span><i class="bi bi-gear"></i></span>
+                                                <p class="collaps-text">Check for Parts</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-app-indicator"></i></span>
+                                    <p class="collaps-text">Notifications</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="sidebar-bottom-menu">
+                    <div class="user-profile">
+                        <figure>
+                            <img src="images/user-profile.jpg" alt="">
+                        </figure>
+                        <p class="collaps-text">Welcome</p>
+                        <h4 class="collaps-text">Edward</h4>
+                    </div>
+                    <div class="sidebar-top-menu-list menu-list-bottom">
+                        <ul>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-key"></i></span>
+                                    <p class="collaps-text">Change Password</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-chat-right-dots"></i></span>
+                                    <p class="collaps-text">Email & Comments</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="menu-link">
+                                    <span><i class="bi bi-box-arrow-left"></i></span>
+                                    <p class="collaps-text">Logout</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="page-content window-height">
+            <div class="header-title-search fix-height common-padding-lr">
+                <div class="header-title-content">
+                    <h2>New Quotation</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="header-search">
+                    <input type="text" placeholder="Customer/Technician/VIN/Registration" />
+                </div>
+            </div>
+            <div class="new-quotation-wrapper after-header-section common-padding-lr">
+                <div class="new-quotation-form">
+                    <form>
+                        <div class="new-quotation-wrap">
+                            <h5>01 - Customer Details</h5>
+                            <div class="input-group-wrapper">
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Customer Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                            <div class="custom-checkbox">
+                                <input type="checkbox" id="Customeremail">
+                                <label for="Customeremail">Checking this box will send email to the above mentioned Customer email</label>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap">
+                            <h5>02 - Vehicle Details</h5>
+                            <div class="radio-groups">
+                                <div class="custom-radio">
+                                    <input type="radio" id="RegistrationNumber" name="vhicleDetail" checked>
+                                    <label for="RegistrationNumber">Registration Number</label>
+                                </div>
+                                <div class="custom-radio">
+                                    <input type="radio" id="VINNumber" name="vhicleDetail" >
+                                    <label for="VINNumber">VIN Number</label>
+                                </div>
+                            </div>
+                            <div class="input-group-wrapper vehicle-number-detail">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Enter Registration Number">
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>New South Wales (NSW)</option>
+                                        <option>New South Wales (NSW)2</option>
+                                    </select>
+                                </div>
+                                <div class="form-group submit-check">
+                                    <button class="btn btn-primary">Submit & Check</button>
+                                </div>
+                            </div>
+                            <div class="input-group-wrapper">
+                                <div class="form-group">
+                                    <label>Make</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Model</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Colour</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Vin No.</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Reg No.</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>State</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Chassis</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Year Of Manufacture</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Vehicle Type</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Compliance Plate</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Body Type</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Engine Number</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Registration Status</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Registration Expiry Date</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>WOV Type Code</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>WOV Jurisdiction</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>WOV Damage Codes</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>WOV Incident Recorded Date</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>WOV Incident Code</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Insurance</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Claim No.</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                                <div class="form-group">
+                                    <label>Sunroof</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap">
+                            <h5>03 - Photos</h5>
+                            <div class="photos-upload-wrpper">
+                                <label class="form__container" id="upload-container">
+                                    <div class="text-center">
+                                        <img src="images/photo-camera.svg" alt="">
+                                    <p>Choose or Drag & Drop Files</p>
+                                    </div>
+                                    <input class="form__file" id="upload-files" type="file" accept="image/*" multiple="multiple"/>
+                                </label>
+                                <div class="form__files-container" id="files-list-container"></div>
+                            </div>
+                            <div class="input-group-wrapper vehicle-number-detail border-bottom-0 mb-0">
+                                <div class="form-group">
+                                    <select class="form-control">
+                                        <option>Assessed Damage</option>
+                                        <option>Assessed Damage2</option>
+                                    </select>
+                                </div>
+                                <div class="form-group submit-check">
+                                    <button class="btn btn-primary">Submit & Check</button>
+                                </div>
+                            </div>
+                            <div class="assessed-damage">
+                                <h6>Assessed Damage</h6>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="QuotationEmail">
+                                    <label for="QuotationEmail">Do you want to attach the photos in the Quotation Email?</label>
+                                </div>
+                                <p>Pre existing condition advises of anything that will not be covered in the quotation</p>
+                                <div class="assessed-damage-checkboxes">
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="WindowsChips">
+                                        <label for="WindowsChips">Windows Chips</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="Cracks">
+                                        <label for="Cracks">Cracks</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="Rust">
+                                        <label for="Rust">Rust</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="Scratches">
+                                        <label for="Scratches">Scratches</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="PaintDamage">
+                                        <label for="PaintDamage">Paint Damage</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="Ripples">
+                                        <label for="Ripples">Ripples</label>
+                                    </div>
+                                    <div class="custom-checkbox">
+                                        <input type="checkbox" id="Dentsnotincluded">
+                                        <label for="Dentsnotincluded">Dents not included</label>
+                                    </div>
+                                </div>
+                                <div class="input-group-wrapper mt-4">
+                                    <div class="form-group">
+                                        <select class="form-control mb-4">
+                                            <option>Select Canned Comments</option>
+                                            <option>Comments2</option>
+                                        </select>
+                                        <textarea class="form-control" placeholder="Add Notes"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap damage-area-wrapper">
+                            <h5>04 - Damaged Area</h5>
+                            <p class="heading-para">Check the Area that appears to be Damaged. You can check more than one option.</p>
+                            <div class="table-responsive">
+                                <table>
+                                    <tr>
+                                        <th>Panel Area</th>
+                                        <th>Panel Cost</th>
+                                        <th>Additional</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Bonnet</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Front Guard</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Front Door</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Rear Door </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>L.H.R QTR Panel</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Front Pillar </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Cant Rail </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Left Rear Pillar</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Boot/Hatch</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>R.H.R QTR Panel</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Rear Door</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Front Door </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Front Guard</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Front Pillar </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Cant Rail</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Right Rear Pillar</td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Turret </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="text" class="form-control" />
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>$00.00</option>
+                                                <option>$10.00</option>
+                                            </select>
+                                        </td>
+                                        <td>
+                                            <select class="form-control">
+                                                <option>Extreme Size</option>
+                                                <option>10</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr class="add-custom-area">
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary icon-btn">
+                                                <i class="bi bi-plus-circle-fill"></i>
+                                                Add Custom Damaged Area
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap damage-area-wrapper">
+                            <h5>05 - Choose Parts</h5>
+                            <p class="heading-para">Choose parts for your car, such as:</p>
+                            <div class="choose-parts-checkboxes">
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftturretmould">
+                                    <label for="Leftturretmould">Left turret mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightturretmould">
+                                    <label for="Rightturretmould">Right turret mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftfrontdooruppermould">
+                                    <label for="Leftfrontdooruppermould">Left front door upper mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightfrontdooruppermould">
+                                    <label for="Rightfrontdooruppermould">Right front door upper mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftfrontdoorbeltmould">
+                                    <label for="Leftfrontdoorbeltmould">Left front door belt mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightfrontdoorbeltmould">
+                                    <label for="Rightfrontdoorbeltmould">Right front door belt mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftreardooruppermould">
+                                    <label for="Leftreardooruppermould">Left rear door upper mould </label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightreardoorbeltmould">
+                                    <label for="Rightreardoorbeltmould">Right rear door belt mould </label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftreardoorbeltmould">
+                                    <label for="Leftreardoorbeltmould">Leftreardoorbeltmould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightreardooruppermould">
+                                    <label for="Rightreardooruppermould">Right rear door upper mould </label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Leftrearquarterglassmould">
+                                    <label for="Leftrearquarterglassmould">Left rear quarter glass mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Rightrearquarterglassmould">
+                                    <label for="Rightrearquarterglassmould">Right rear quarter glass mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Frontwindscreenmould">
+                                    <label for="Frontwindscreenmould">Front windscreen mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="RearWindscreenmould">
+                                    <label for="RearWindscreenmould">Rear Windscreen mould</label>
+                                </div>
+                                <div class="custom-checkbox">
+                                    <input type="checkbox" id="Bonnetpadclips">
+                                    <label for="Bonnetpadclips">Bonnet pad clips</label>
+                                </div>
+                            </div>
+                            <div class="add-custom-part-wrapper">
+                                <a href="#" class="btn btn-primary icon-btn">
+                                    <i class="bi bi-plus-circle-fill"></i>
+                                    Add Custom Part
+                                </a>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap">
+                            <h5>06 - R&R</h5>
+                            <p class="heading-para">Type in any additional dollar value</p>
+                            <div class="input-group-wrapper mt-5">
+                                <div class="form-group">
+                                    <div class="mb-4">
+                                        <label>Remove & Replace</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class="">
+                                        <label>Details</label>
+                                        <textarea class="form-control" placeholder="Enter Details"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="new-quotation-wrap">
+                            <h5>07 - Add Discount</h5>
+                            <div class="input-group-wrapper">
+                                <div class="form-group">
+                                    <label> Select the percentage of discount</label>
+                                    <select class="form-control">
+                                        <option>No Discount</option>
+                                        <option>Discount1</option>
+                                        <option>Discount2</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Generate Quotation</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="js/photo-upload.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</html>
